@@ -43,5 +43,5 @@ export const findStateByName = async (stateName) => {
 export const deleteState = async(id) =>{
     return await prisma.state.delete({
         where:{id},
-    })
+    }) 
 }
